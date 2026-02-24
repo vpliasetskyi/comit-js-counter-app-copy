@@ -4,6 +4,7 @@
 1.Fork the repo
 ```gh repo fork vpliasetskyi/comit-js-counter-app-copy --clone```
 ```cd comit-js-counter-app-copy```
+
 2.Create and switch to new branch
 ```git checkout -b your_name```
 
