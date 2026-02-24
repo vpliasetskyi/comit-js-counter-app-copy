@@ -1,9 +1,9 @@
 // Define working elements
-const display = document.querySelector("input_box");
+const display = document.querySelector(".input_box");
 
-const plusBtn = document.querySelector("plus_btn")
-const minusBtn = document.querySelector("minus_btn")
-const resetBtn = document.querySelector("refresh_btn")
+const plusBtn = document.querySelector(".plus_btn")
+const minusBtn = document.querySelector(".minus_btn")
+const resetBtn = document.querySelector(".refresh_btn")
 
 //Define zero state
 let count = 0;
