@@ -1,0 +1,82 @@
+/* Import a cool font from Google */
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap" rel="stylesheet');
+/* Reset default browser styles */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Style the whole page */
+body {
+font-family: "Mozilla Text", sans-serif;
+background-color: #121212;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+color: #ffffff;
+}
+/*The counter body  box styling */
+#counter_box {
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: center;
+    width: 340px;
+    border: 1px solid #333;
+}
+
+/*Owner name styling */
+#ownwer_name {
+    font-family: "Mozilla Text", sans-serif;
+    font-size: 18;
+    margin-bottom: 30px;
+    color: #a5b4fc;
+    font-weight: 700; 
+}
+/*Styling number display window */
+#number_display_area {
+    background-color: #08090a;
+    padding: 35px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.input_box {
+    font-family: "Mozilla Text", sans-serif;
+    background: transparent;
+    border: none;
+    color: #29f20e;
+    font-size: 72px; 
+    font-weight: 800;
+    width: 200px;
+    text-align: center;
+    outline: none;
+}
+/*bottons styling */
+#control_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    width: 0.7in;
+    height: 0.7in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.minus_btn, .plus_btn { background-color: #ff0000; color: #000; }
+.refresh_btn { background-color: #29f20e; color: #000; }
+
+#build_with {
+    margin-top: 35px;
+    font-size: 9pt;
+    color: #666;
+    text-transform: uppercase;
+}
