@@ -1,7 +1,7 @@
 # JS,HTML,CSS version of Django counter app
 ## Feel free to add,fix,change any functionality of the app 
 
-1.Fork the repo
+1.Fork and clone the repo
 ```gh repo fork vpliasetskyi/comit-js-counter-app-copy --clone```
 ```cd comit-js-counter-app-copy```
 
