@@ -5,10 +5,14 @@
 ```gh repo fork vpliasetskyi/comit-js-counter-app-copy --clone```
 ```cd comit-js-counter-app-copy```
 
+2.Make sure you have latest changes
+```git pull origin main```
+
 2.Create and switch to new branch
 ```git checkout -b your_name```
 
 3.Make changes
+```++++++++++++++```
 
 4.Git add and commit 
 ```git commit -am "your_comment"```
